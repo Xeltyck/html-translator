@@ -9,7 +9,7 @@ with open("index.html","r",encoding="utf-8") as html_file: # Open file with read
     #body = soup.find('body')
     
     
-    elements = ["p","h1","h2","h3","a", "span","title","strong","i","button","svg"] # Elements that must be replaced on the HTML file. 
+    elements = ["p","div","title","button"] # Elements that must be replaced on the HTML file. 
     
     #Translation stage - Make use of Google API and "html.parser"
     translator = Translator()
