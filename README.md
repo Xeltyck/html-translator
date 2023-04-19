@@ -5,4 +5,4 @@ This is an Html translator. In order to translate the Html file, BeautifulSoup a
 
 ```translate = translator.translate(x.text,src="en",dest="hi")``` - source and destination languages can be set changing the ```src="en"``` and ```"dest="hi""``` parameters. Official parameters for the supported languages can be found at [googletrans 3.0.0 documantation.](https://py-googletrans.readthedocs.io/en/latest/)
 
-As an example, a YouTube clone website was translated to Hindi using the script. 
+[As an example, a YouTube clone website was translated to Hindi using the script](https://xeltyck.github.io/html-translator/). 
